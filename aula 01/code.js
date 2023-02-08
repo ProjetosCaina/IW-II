@@ -59,5 +59,41 @@ function lacofor(n){
     }
 }
 
-lacofor(2)
 
+
+//laço enquanto(while)
+
+function lacowhile (n){
+    let i =0
+    while(i<10){
+        i++
+        if(n == 1){
+            console.log("você escolheu 1")
+            break
+        } else {
+            console.log("não existe este numero") 
+        }
+    }
+}
+
+//laço fazer... enquanto (do... white)
+
+
+function lacofacaenquanto(n){
+    let i=0
+    do{
+        i++
+        if(n == 1){
+            console.log("você escolheu 1")
+            break
+        } else {
+            console.log("não existe este numero") 
+        }
+    } while(i<10)
+}
+
+//switch case
+
+function lacocaso(){
+    
+}
